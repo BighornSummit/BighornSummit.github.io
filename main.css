@@ -19,16 +19,16 @@ h1, h2 {
     text-transform: uppercase;
     font-family: "Arial Black";
     border-radius: 5px;
-    margin-left: 30%;
-    margin-right: 30%;
+    margin-left: 25%;
+    margin-right: 25%;
     padding-right: 10px;
     padding-left: 10px;
-    text-shadow: 1px 1px rgb(46, 77, 112);
+    text-shadow: 1px 1px rgb(14, 17, 17); /*Black*/
 }
 
 h1 {
-    font-size: 5vw;
-    margin-top: 50px;
+    font-size: 4vw;
+    margin-top: 10px;
     margin-bottom: 5px;
 }
 
@@ -40,7 +40,7 @@ h2 {
 
 h4 {
     font-size: 1.5vw;
-    color: rgb(59, 68, 75); /*Pale Blue*/
+    color: rgb(94, 104, 107); /*Light Pale Green*/
     font-family: "Arial Black";
     text-align: left;
     margin-top: 50px;
@@ -51,7 +51,7 @@ h4 {
 
 h5 {
     font-size: 1.2vw;
-    color: rgb(59, 68, 75); /*Pale Blue*/
+    color: rgb(94, 104, 107); /*Light Pale Green*/
     font-family: "Arial Black";
     text-align: left;
     margin-top: 50px;
@@ -61,7 +61,7 @@ h5 {
 }
 
 h3 {
-    color: rgb(59, 68, 75); /*Pale Blue*/
+    color: rgb(94, 104, 107); /*Light Pale Green*/
     text-transform: uppercase;
     font-family: "Arial Black";
     text-shadow: 1px 1px rgb(147, 84, 2);
@@ -70,7 +70,7 @@ h3 {
 }
 
 p {
-    color: rgb(59, 68, 75); /*Pale Blue*/
+    color: rgb(94, 104, 107); /*Light Pale Green*/
     font-size: .9vw;
     font-family: "Arial";
 }
@@ -90,9 +90,9 @@ p {
     outline: none;
     cursor: pointer;
     padding: 14px 16px;
-    width: 25%;
+    width: 50%;
     transition: 0.3s;
-    color: rgb(53, 56, 57); /*Dark Grey*/
+    color: rgb(94, 104, 107); /*Light Pale Green*/
     text-transform: uppercase;
     font-family: "Arial Black";
     text-shadow: 1px 1px rgb(14, 17, 17); /*Black*/
