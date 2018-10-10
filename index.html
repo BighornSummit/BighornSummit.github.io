@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <title>Bighorn Summit</title>
+</head>
+<body>
+
+<h1>Bighorn Summit</h1>
+<h2>Game designer and writer.</h2>
+
+<!-- Tab links -->
+<div class="tab">
+    <button class="tablinks" onclick="openTab(event, 'Level')">Level</button>
+    <button class="tablinks" onclick="openTab(event, 'Credits')">Credits</button>
+</div>
+
+<script>
+    function openTab(evt, tabName) {
+        // Declare all variables
+        var i, tabcontent, tablinks;
+
+        // Get all elements with class="tabcontent" and hide them
+        tabcontent = document.getElementsByClassName("tabcontent");
+        for (i = 0; i < tabcontent.length; i++) {
+            tabcontent[i].style.display = "none";
+        }
+
+        // Get all elements with class="tablinks" and remove the class "active"
+        tablinks = document.getElementsByClassName("tablinks");
+        for (i = 0; i < tablinks.length; i++) {
+            tablinks[i].className = tablinks[i].className.replace(" active", "");
+        }
+
+        // Show the current tab, and add an "active" class to the button that opened the tab
+        document.getElementById(tabName).style.display = "block";
+        evt.currentTarget.className += " active";
+    }
+</script>
+
+<!-- Tab content -->
+<div id="Level" class="tabcontent">
+    <h4>This is a link to the level content! Will have trailer, screenshots, and description thing.</h4>
+</div>
+
+<div id="Credits" class="tabcontent">
+    <div class="column">
+        <img src="images/game_night_cover.png" alt="Game Night Cover" style="width:50%;height:50%;margin-top: 80px; margin-left: 25%">
+    </div>
+    <div class="column">
+        <img src="images/ad_cover.png" alt="Assignment Day Cover" style="width:50%;height:50%;margin-top: 80px; margin-left: 25%">
+    </div>
+</div>
+
+<script>
+    // Get the element with id="defaultOpen" and click on it
+    document.getElementById("defaultOpen").click();
+</script>
+
+</body>
+</html>
