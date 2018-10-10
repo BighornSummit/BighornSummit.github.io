@@ -39,10 +39,21 @@ h2 {
     margin-bottom: 50px;
 }
 
+h3 {
+    color: rgb(94, 104, 107); /*Light Pale Green*/
+    text-transform: uppercase;
+    font-family: "Arial Black";
+    text-shadow: 1px 1px rgb(14, 17, 17); /*Black*/
+    margin-left: 10%;
+    font-size: 2vw;
+}
+
 h4 {
     font-size: 1.5vw;
-    color: rgb(94, 104, 107); /*Light Pale Green*/
+    color: rgb(59, 68, 75); /*Pale Blue*/
+    text-shadow: 1px 1px rgb(14, 17, 17); /*Black*/
     font-family: "Arial Black";
+    margin-left: 10%;
     text-align: left;
     margin-top: 50px;
     margin-bottom: 10px;
@@ -65,19 +76,11 @@ h5 {
     border-radius: 15px;
 }
 
-h3 {
-    color: rgb(94, 104, 107); /*Light Pale Green*/
-    text-transform: uppercase;
-    font-family: "Arial Black";
-    text-shadow: 1px 1px rgb(147, 84, 2);
-    margin-left: 10%;
-    font-size: 2vw;
-}
-
 p {
     color: rgb(94, 104, 107); /*Light Pale Green*/
     font-size: .9vw;
-    font-family: "Arial";
+    font-family: "Arial Black";
+    margin-left: 15%;
 }
 
 /* Style the tab */
