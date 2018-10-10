@@ -1,3 +1,4 @@
+/*TEXT STYLE CODE*/
 img {
     image-orientation: from-image;
 }
@@ -7,7 +8,7 @@ body {
 }
 
 a {
-    color: rgb(65, 74, 76); /*Pale Green*/
+    color: rgb(94, 104, 107); /*Light Pale Green*/
     font-size: .9vw;
     font-family: "Arial";
     padding-left: 60px;
@@ -54,10 +55,11 @@ h5 {
     color: rgb(94, 104, 107); /*Light Pale Green*/
     font-family: "Arial Black";
     text-align: left;
-    margin-top: 50px;
-    margin-bottom: 10px;
-    text-transform: uppercase;
+    margin-top: 25px;
+    margin-bottom: 25px;
     padding-left: 60px;
+    background-color: rgb(35, 43, 43); /*Dark Green*/
+    border-radius: 25px;
 }
 
 h3 {
@@ -99,6 +101,8 @@ p {
     font-size: 1.5vw;
 }
 
+
+/*TAB CODE*/
 /* Change background color of buttons on hover */
 .tab button:hover {
     background-color: rgb(65, 74, 76); /*Pale Green*/
@@ -124,6 +128,8 @@ p {
     to {opacity: 1;}
 }
 
+
+/*COLUMN CODE*/
 .column {
     float: left;
     width: 50%;
@@ -134,4 +140,22 @@ p {
     content: "";
     display: table;
     clear: both;
+}
+
+
+/*IMAGE GALLERY CODE*/
+div.gallery {
+    margin: 5px;
+    border: 1px rgb(59, 68, 75); /*Pale Blue*/
+    float: left;
+    width: 180px;
+}
+
+div.gallery:hover {
+    border: 1px rgb(65, 74, 76); /*Pale Green*/
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
 }
